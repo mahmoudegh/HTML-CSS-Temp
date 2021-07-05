@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Exercises</title>
+    <title>HTML & CSS Temp</title>
     <!-- Main css -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- Normalize -->
@@ -232,29 +232,22 @@
     <a class="go-up" href="#top"><i class="fas fa-chevron-up"></i></a>
     <!-- Go Up  Button -->
 
-    <!-- Videos Link -->
-    <div class="vid-link">
-      <a href="https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF" target="blank"
-        >Link Of The Videos</a
-      >
-    </div>
-    <!-- Videos Link -->
     <script>
-      document.onmouseover = function() {
-      //User's mouse is inside the page.
-      window.innerDocClick = true;
-    }
+      document.onmouseover = function () {
+        //User's mouse is inside the page.
+        window.innerDocClick = true;
+      };
 
-      document.onmouseleave = function() {
-      //User's mouse has left the page.
-      window.innerDocClick = false;
-    }
+      document.onmouseleave = function () {
+        //User's mouse has left the page.
+        window.innerDocClick = false;
+      };
 
-    window.onhashchange = function() {
-      if (!window.innerDocClick) {
-      location.hash = "#top";
-      }
-    }
+      window.onhashchange = function () {
+        if (!window.innerDocClick) {
+          location.hash = "#top";
+        }
+      };
     </script>
   </body>
 </html>
